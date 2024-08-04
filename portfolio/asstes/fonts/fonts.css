@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --header-height: 3rem;
+    --font-semi: 600;
+    --hue-color: 224;
+    --first-color: hsl(var(--hue-color), 89%, 60%);
+    --second-color: hsl(var(--hue-color), 56%, 12%);
+    --color-btn:#fff;
+
+    --body-font: 'Poppins', sans-serif;
+    --para-font:: "Roboto", sans-serif;
+    --heading-font: "Playfair Display", serif;
+    --logo-font: "Bebas Neue", sans-serif;
+    
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+
+
+    --mb-2: 1rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+
+    
+    --z-back: -10;
+    --z-fixed: 100;
+    @media screen and (min-width: 968px){
+        --big-font-size: 3.5rem;
+        --h2-font-size: 2rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: .875rem;
+    }
+}
+*,::before,::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.d-flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.f-col{
+    flex-direction: column;
+}
+.j-start{
+    justify-content: start;
+}
+.j-end{
+    justify-content: end;
+}
+.align-start{
+    align-items: start;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.d_none{
+    display: none;
+}
+.d_block{
+    display: block;
+}
