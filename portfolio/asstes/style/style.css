@@ -497,6 +497,9 @@ footer .links  .bottom .emails ul li a:hover{
     header nav .nav__list{
         display: none;
     } 
+     .About{
+        height: 60vh;
+    }
     .About_heading h1{
         font-size: 2em;
     }
@@ -535,5 +538,7 @@ header .menu {
      .Skills .Skills_progress .Skills_profesinal .text  .text_para {
         height: 30%;
     }
-   
+    .Skills{
+        height: 70vh;
+    }
 }  
