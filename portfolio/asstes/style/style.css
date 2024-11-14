@@ -223,12 +223,15 @@ header   .nav_2 .nav__lists .nav__item a{
 .Skills{
     width: 100vw;
     min-height: 100vh;
-    /* display: none; */
+
 }
 .Skills .Skills_progress{
     width: 100%;
     height: 80%;
-    /* background-color: orange; */
+   
+}
+.Skills .Skills_heading{
+     height: 40% !imporant;
 }
 .Skills .Skills_progress .Skills_percentage ,.Skills .Skills_progress .SKills_work{
     width: 50%;
